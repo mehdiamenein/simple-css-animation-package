@@ -26,11 +26,6 @@ SimpleCSSAnimationPackage(
 );
 ```
 Checkout the example on Codepen: https://codepen.io/mehdiroshanfekr/pen/GRxzbgJ
-<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/mehdiroshanfekr/embed/preview/GRxzbgJ?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/mehdiroshanfekr/pen/GRxzbgJ">
-  Untitled</a> by mehdi roshan fekr (<a href="https://codepen.io/mehdiroshanfekr">@mehdiroshanfekr</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
 
 ## Documentation
 

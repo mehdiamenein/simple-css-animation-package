@@ -1,4 +1,8 @@
-const SimpleCSSAnimationPackage = async (animationSeq, targetId, startWait = 0) => {
+const SimpleCSSAnimationPackage = async (
+  animationSeq,
+  targetId,
+  startWait = 0
+) => {
   if (startWait > 0) {
     await wait(startWait);
   }
