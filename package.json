@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/mehdiamenein/simple-css-animation-package.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["javascript", "animations", "javascript animation", "animation", "css", "css animation"],
+  "author": "Mehdi Roshan Fekr",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mehdiamenein/simple-css-animation-package/issues"
