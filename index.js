@@ -46,4 +46,10 @@ const wait = (timer) =>
     }, timer);
   });
 
-module.exports = SimpleCSSAnimationPackage;
+function SimpleCSSFlushInlineCSS(targetId) {
+  const elements = document.querySelectorAll(`[simple-ca="${targetId}"]`);
+  elements.forEach((element) => {
+    element.style = "";
+  });
+}
+module.exports = { SimpleCSSAnimationPackage, SimpleCSSFlushInlineCSS };
