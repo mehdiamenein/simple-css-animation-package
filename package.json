@@ -1,6 +1,6 @@
 {
   "name": "simple-css-animation-package",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is a very simple package for those who want to have CSS animations included in their next project no matter which framework with no underneath dependencies ",
   "main": "dist.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": ["javascript", "animations", "javascript animation", "animation", "css", "css animation"],
   "author": "Mehdi Roshan Fekr",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mehdiamenein/simple-css-animation-package/issues"
   },
