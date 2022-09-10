@@ -5,40 +5,56 @@ An extremely simple css animation package which can be used cross-framework with
 ## Example:
 
 ```javascript
-import SimpleCSSAnimationPackage from "simple-css-animation-package"
+import SimpleCSSAnimationPackage from "simple-css-animation-package";
 
 SimpleCSSAnimationPackage(
   [
     {
-      _simpleAnimationDelay: 0,
-      _simpleAnimationDuration: 500,
+      _simpleAnimationSequenceWaiting: 0, // delay before starting the entire sequence
+      _simpleAnimationWaitPerElement: 0, // delay for individual element if multiple with same attributes are found
+      _simpleAnimationDuration: 500, // animation duration of all elements
+      _simpleAnimationIncrease: 10, // per element delay difference (like starting a bit later)
       opacity: "0",
       transform: "Translate(2em,0)",
     },
     {
-      _simpleAnimationDelay: 1000 + index * 100,
+      _simpleAnimationSequenceWaiting: 1000,
       _simpleAnimationDuration: 1000,
+      _simpleAnimationIncrease: 100,
       opacity: "1",
       transform: "Translate(0,0)",
     },
   ],
-  `title-${element.id}`
+  `title`
 );
 ```
-Checkout the example on Codepen: https://codepen.io/mehdiroshanfekr/pen/GRxzbgJ
+
+Please checkout the example on Codepen: https://codepen.io/mehdiroshanfekr/pen/GRxzbgJ
 
 ## Documentation
 
 The function accepts 2 variables:
 
-**JSON Array:** I can be any css variables as shown in the example and 2 additional variables called `_simpleAnimationDelay` for delay in starting the animation and `_simpleAnimationDuration` for the duration of the animation.
+**JSON Array:** I can be any css variables as shown in the example and the 4 additional variables called mentioned above
 
-**Element ID:** So that the function knows which element to target (we will modify this later on to work with a custom attribute instead)
+**Element Attribute:** So that the function knows which element to target, it requires a custom tag called `simple-ca` like the example below:
+```html
+<div class="sample-app" simple-ca="title">Somthing</div>
+```
 
 ## CDN
 
-You can replace 1.0.2 with whichever version you desire
 
-````html
-<script src='https://unpkg.com/simple-css-animation-package@1.0.2/index.js'></script>
+```html
+<script src="https://unpkg.com/simple-css-animation-package"></script>
 ```
+
+Or you can use a custom version and replace 1.0.5 with whichever version you desire
+
+```html
+<script src="https://unpkg.com/simple-css-animation-package@1.0.5"></script>
+```
+
+## Version Notes
+
+**1.0.5** - The older version which were working with the id will no longer work and there are new variables available which can improve your process of using it a lot

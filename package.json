@@ -1,10 +1,10 @@
 {
   "name": "simple-css-animation-package",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "This is a very simple package for those who want to have CSS animations included in their next project no matter which framework with no underneath dependencies ",
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
-    "test": "index.js"
+    "test": "dist.js"
   },
   "repository": {
     "type": "git",
