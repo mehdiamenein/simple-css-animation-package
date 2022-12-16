@@ -21,18 +21,20 @@ const SimpleCSSAnimationPackage = async (
 
       if (seq?._simpleAnimationIncrease > 0) {
         wait(index2 * seq?._simpleAnimationIncrease).then(() => {
-          element.style.transition = seq._simpleAnimationDuration + "ms all";
+          (element as HTMLElement).style.transition =
+            seq._simpleAnimationDuration + "ms all";
           Object.keys(seq).forEach((key) => {
-            if (element?.style[key] != undefined) {
-              element.style[key] = seq[key];
+            if ((element as HTMLElement)?.style[key] != undefined) {
+              (element as HTMLElement).style[key] = seq[key];
             }
           });
         });
       } else {
-        element.style.transition = seq._simpleAnimationDuration + "ms all";
+        (element as HTMLElement).style.transition =
+          seq._simpleAnimationDuration + "ms all";
         Object.keys(seq).forEach((key) => {
-          if (element?.style[key] != undefined) {
-            element.style[key] = seq[key];
+          if ((element as HTMLElement)?.style[key] != undefined) {
+            (element as HTMLElement).style[key] = seq[key];
           }
         });
       }
@@ -46,10 +48,10 @@ const wait = (timer) =>
     }, timer);
   });
 
-function SimpleCSSFlushInlineCSS(targetId) {
+function SimpleCSSFlushInlineCSS(targetId: string) {
   const elements = document.querySelectorAll(`[simple-ca="${targetId}"]`);
-  elements.forEach((element) => {
-    element.style = "";
+  elements.forEach((element: Element) => {
+    (element as HTMLElement).setAttribute("style", "");
   });
 }
 module.exports = { SimpleCSSAnimationPackage, SimpleCSSFlushInlineCSS };

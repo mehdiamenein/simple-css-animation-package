@@ -1,1 +1,144 @@
-const _0x2455fe=_0x1698;(function(_0x2dcffc,_0x5d8b96){const _0x544cf1=_0x1698,_0x37a15d=_0x2dcffc();while(!![]){try{const _0x120808=parseInt(_0x544cf1(0x157))/0x1*(-parseInt(_0x544cf1(0x159))/0x2)+parseInt(_0x544cf1(0x149))/0x3*(parseInt(_0x544cf1(0x15b))/0x4)+parseInt(_0x544cf1(0x145))/0x5*(parseInt(_0x544cf1(0x14d))/0x6)+-parseInt(_0x544cf1(0x155))/0x7*(-parseInt(_0x544cf1(0x15a))/0x8)+parseInt(_0x544cf1(0x150))/0x9+parseInt(_0x544cf1(0x154))/0xa*(-parseInt(_0x544cf1(0x146))/0xb)+parseInt(_0x544cf1(0x158))/0xc;if(_0x120808===_0x5d8b96)break;else _0x37a15d['push'](_0x37a15d['shift']());}catch(_0x461f15){_0x37a15d['push'](_0x37a15d['shift']());}}}(_0x3012,0xb75b6));function _0x1698(_0x3db4cb,_0x21878f){const _0x301227=_0x3012();return _0x1698=function(_0x1698d4,_0x46511f){_0x1698d4=_0x1698d4-0x143;let _0x594f20=_0x301227[_0x1698d4];return _0x594f20;},_0x1698(_0x3db4cb,_0x21878f);}const SimpleCSSAnimationPackage=async(_0x8d0264,_0x50bbb8,_0x12cda2=0x0)=>{const _0x58dd0d=_0x1698;_0x12cda2>0x0&&await wait(_0x12cda2);for(let _0x340fcb=0x0;_0x340fcb<_0x8d0264[_0x58dd0d(0x14e)];_0x340fcb++){const _0x214dc3=_0x8d0264[_0x340fcb];_0x214dc3?.['_simpleAnimationSequenceWaiting']>0x0&&await wait(_0x214dc3[_0x58dd0d(0x156)]);const _0x2c60e4=document['querySelectorAll'](_0x58dd0d(0x14c)+_0x50bbb8+'\x22]');for(let _0x5561d3=0x0;_0x5561d3<_0x2c60e4[_0x58dd0d(0x14e)];_0x5561d3++){const _0x4d7dcc=_0x2c60e4[_0x5561d3];_0x214dc3?.[_0x58dd0d(0x151)]>0x0&&await wait(_0x214dc3[_0x58dd0d(0x151)]),_0x214dc3?.[_0x58dd0d(0x14a)]>0x0?wait(_0x5561d3*_0x214dc3?.['_simpleAnimationIncrease'])[_0x58dd0d(0x14f)](()=>{const _0x5622e3=_0x58dd0d;_0x4d7dcc['style']['transition']=_0x214dc3[_0x5622e3(0x14b)]+_0x5622e3(0x144),Object[_0x5622e3(0x143)](_0x214dc3)[_0x5622e3(0x147)](_0x42d217=>{const _0x39aab1=_0x5622e3;_0x4d7dcc?.[_0x39aab1(0x152)][_0x42d217]!=undefined&&(_0x4d7dcc[_0x39aab1(0x152)][_0x42d217]=_0x214dc3[_0x42d217]);});}):(_0x4d7dcc[_0x58dd0d(0x152)][_0x58dd0d(0x153)]=_0x214dc3[_0x58dd0d(0x14b)]+_0x58dd0d(0x144),Object[_0x58dd0d(0x143)](_0x214dc3)[_0x58dd0d(0x147)](_0x137f11=>{const _0xf5cda=_0x58dd0d;_0x4d7dcc?.['style'][_0x137f11]!=undefined&&(_0x4d7dcc[_0xf5cda(0x152)][_0x137f11]=_0x214dc3[_0x137f11]);}));}}},wait=_0xc7d581=>new Promise((_0x3e64bf,_0x1997c0)=>{setTimeout(()=>{_0x3e64bf('');},_0xc7d581);});function SimpleCSSFlushInlineCSS(_0x1092a5){const _0x578f7e=_0x1698,_0x3cab2b=document['querySelectorAll']('[simple-ca=\x22'+_0x1092a5+'\x22]');_0x3cab2b[_0x578f7e(0x147)](_0x404ef3=>{const _0x187f5f=_0x578f7e;_0x404ef3[_0x187f5f(0x152)]='';});}module[_0x2455fe(0x148)]={'SimpleCSSAnimationPackage':SimpleCSSAnimationPackage,'SimpleCSSFlushInlineCSS':SimpleCSSFlushInlineCSS};function _0x3012(){const _0x207f57=['length','then','5507658CqsbZy','_simpleAnimationWaitPerElement','style','transition','4253380JiwWbL','77xlxYxn','_simpleAnimationSequenceWaiting','2ZuPpyR','6932532AIBoLj','766468zgJnJB','387496GUyvSk','8lhLmHA','keys','ms\x20all','55KTyvNI','33oweHbl','forEach','exports','1181013hJXmkE','_simpleAnimationIncrease','_simpleAnimationDuration','[simple-ca=\x22','154740DvlMLU'];_0x3012=function(){return _0x207f57;};return _0x3012();}
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var _this = this;
+var SimpleCSSAnimationPackage = function (animationSeq, targetId, startWait) {
+    if (startWait === void 0) { startWait = 0; }
+    return __awaiter(_this, void 0, void 0, function () {
+        var _loop_1, index;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    if (!(startWait > 0)) return [3 /*break*/, 2];
+                    return [4 /*yield*/, wait(startWait)];
+                case 1:
+                    _a.sent();
+                    _a.label = 2;
+                case 2:
+                    _loop_1 = function (index) {
+                        var seq, elements, _loop_2, index2;
+                        return __generator(this, function (_b) {
+                            switch (_b.label) {
+                                case 0:
+                                    seq = animationSeq[index];
+                                    if (!((seq === null || seq === void 0 ? void 0 : seq._simpleAnimationSequenceWaiting) > 0)) return [3 /*break*/, 2];
+                                    return [4 /*yield*/, wait(seq._simpleAnimationSequenceWaiting)];
+                                case 1:
+                                    _b.sent();
+                                    _b.label = 2;
+                                case 2:
+                                    elements = document.querySelectorAll("[simple-ca=\"".concat(targetId, "\"]"));
+                                    _loop_2 = function (index2) {
+                                        var element;
+                                        return __generator(this, function (_c) {
+                                            switch (_c.label) {
+                                                case 0:
+                                                    element = elements[index2];
+                                                    if (!((seq === null || seq === void 0 ? void 0 : seq._simpleAnimationWaitPerElement) > 0)) return [3 /*break*/, 2];
+                                                    return [4 /*yield*/, wait(seq._simpleAnimationWaitPerElement)];
+                                                case 1:
+                                                    _c.sent();
+                                                    _c.label = 2;
+                                                case 2:
+                                                    if ((seq === null || seq === void 0 ? void 0 : seq._simpleAnimationIncrease) > 0) {
+                                                        wait(index2 * (seq === null || seq === void 0 ? void 0 : seq._simpleAnimationIncrease)).then(function () {
+                                                            element.style.transition =
+                                                                seq._simpleAnimationDuration + "ms all";
+                                                            Object.keys(seq).forEach(function (key) {
+                                                                if ((element === null || element === void 0 ? void 0 : element.style[key]) != undefined) {
+                                                                    element.style[key] = seq[key];
+                                                                }
+                                                            });
+                                                        });
+                                                    }
+                                                    else {
+                                                        element.style.transition =
+                                                            seq._simpleAnimationDuration + "ms all";
+                                                        Object.keys(seq).forEach(function (key) {
+                                                            if ((element === null || element === void 0 ? void 0 : element.style[key]) != undefined) {
+                                                                element.style[key] = seq[key];
+                                                            }
+                                                        });
+                                                    }
+                                                    return [2 /*return*/];
+                                            }
+                                        });
+                                    };
+                                    index2 = 0;
+                                    _b.label = 3;
+                                case 3:
+                                    if (!(index2 < elements.length)) return [3 /*break*/, 6];
+                                    return [5 /*yield**/, _loop_2(index2)];
+                                case 4:
+                                    _b.sent();
+                                    _b.label = 5;
+                                case 5:
+                                    index2++;
+                                    return [3 /*break*/, 3];
+                                case 6: return [2 /*return*/];
+                            }
+                        });
+                    };
+                    index = 0;
+                    _a.label = 3;
+                case 3:
+                    if (!(index < animationSeq.length)) return [3 /*break*/, 6];
+                    return [5 /*yield**/, _loop_1(index)];
+                case 4:
+                    _a.sent();
+                    _a.label = 5;
+                case 5:
+                    index++;
+                    return [3 /*break*/, 3];
+                case 6: return [2 /*return*/];
+            }
+        });
+    });
+};
+var wait = function (timer) {
+    return new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve("");
+        }, timer);
+    });
+};
+function SimpleCSSFlushInlineCSS(targetId) {
+    var elements = document.querySelectorAll("[simple-ca=\"".concat(targetId, "\"]"));
+    elements.forEach(function (element) {
+        element.setAttribute("style", "");
+    });
+}
+module.exports = { SimpleCSSAnimationPackage: SimpleCSSAnimationPackage, SimpleCSSFlushInlineCSS: SimpleCSSFlushInlineCSS };
