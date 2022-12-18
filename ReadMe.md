@@ -57,6 +57,8 @@ Or you can use a custom version and replace 1.0.5 with whichever version you des
 
 ## Version Notes
 
+**1.0.12** - Type support added
+
 **1.0.8** - The inline styles can be flushed with a secondary function now called `SimpleCSSFlushInlineCSS`
 
 **1.0.5** - The older version which were working with the id will no longer work and there are new variables available which can improve your process of using it a lot
